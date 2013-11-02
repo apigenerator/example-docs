@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>http://apigenerator.github.io/example-docs/index.html</loc>
+</url>
+<url>
+	<loc>http://apigenerator.github.io/example-docs/package-apigenerator.html</loc>
+</url>
+<url>
+	<loc>http://apigenerator.github.io/example-docs/package-apigenerator.org.html</loc>
+</url>
+
+
+<url>
+	<loc>http://apigenerator.github.io/example-docs/class-Example.html</loc>
+</url>
+</urlset>

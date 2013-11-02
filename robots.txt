@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://apigenerator.github.io/example-docs/sitemap.xml
