@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="apigenerator/example-source" version="2.1.0&#10;">
+  <partials/>
+  <file path="Example.php" generated-path="Example.html" hash="7083227aa4e18a941c05ffc5516ae057" package="apigenerator.org">
+    <docblock line="0">
+      <description>ApiGenerator.org
+Copyright (C) 2013 Tristan Lins</description>
+      <long-description>PHP version 5</long-description>
+      <tag name="copyright" line="0" description="bit3 UG 2013"/>
+      <tag name="author" line="0" description="Tristan Lins" link="mailto:tristan.lins@bit3.de"/>
+      <tag name="package" line="0" description="apigenerator.org"/>
+      <tag name="license" line="0" description="LGPL-3.0+"/>
+      <tag name="filesource" line="0" description=""/>
+    </docblock>
+    <class final="false" abstract="false" namespace="" line="19" package="apigenerator.org">
+      <extends/>
+      <name>Example</name>
+      <full_name>\Example</full_name>
+      <docblock line="19">
+        <description>This is an example class.</description>
+        <long-description></long-description>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="28" package="apigenerator.org">
+        <name>foo</name>
+        <full_name>\Example::foo()</full_name>
+        <docblock line="28">
+          <description>Return the input value $bar.</description>
+          <long-description></long-description>
+          <tag name="param" line="28" description="" type="string" variable="$bar">
+            <type>string</type>
+          </tag>
+          <tag name="return" line="28" description="" type="string">
+            <type>string</type>
+          </tag>
+        </docblock>
+        <argument line="0">
+          <name>$bar</name>
+          <default>'zap'</default>
+          <type>string</type>
+        </argument>
+      </method>
+    </class>
+    <source>eJxdkMtOwzAQRdfxV8wCqW0QTqFiRYGgCoVFFhEqH+CESWLh2pYfFQ/137GdqlRYXnjm3jO+9vpRj5qQIs8J5PCkeYUSDXPKUGWG2Nso/WX4MDqYbxZws7xewdZw65iEmksbLNHVvDSwR2O5knB77JXdCYWWuxW8VYlPGvNuVAbiOh8HazdVVISqjBh9x4eEaNZ9sAEjwjQf/gctBe9Q2qTXVVNfrejyMgk9F2iVNx2Gsji9djtyC2GHq/GT7bRA6ASzliZXOsLzJJAfkkUqC9grOm8kuBGBS+0d7JnwCBctMzQakimENWwHNrxGDkn7k8w0YNJiqyCZ9m2ID72XnYt/2Cs1jxTcw+yb6dmCZCFCdkSjckeyAzmQXz3bgpE=</source>
+  </file>
+  <package name="apigenerator.org" full_name="apigenerator.org"/>
+  <namespace name="global" full_name="global"/>
+  <deprecated count="0"/>
+</project>
