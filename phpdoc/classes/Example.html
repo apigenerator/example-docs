@@ -32,7 +32,7 @@
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
                 <ul></ul></a></li>
 <li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
-                <span class="label label-info">0</span></a></li>
+                <span class="label label-info">1</span></a></li>
 </ul>
 </li>
 </ul></div>
@@ -49,10 +49,22 @@
 <span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
 <button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
 </div>
-<ul class="side-nav nav nav-list"><li class="nav-header">
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
 <i class="icon-custom icon-method"></i> Methods
-                    <ul><li class="method public "><a href="#method_foo" title="foo() :: Return the input value $bar."><span class="description">Return the input value $bar.</span><pre>foo()</pre></a></li></ul>
-</li></ul>
+                    <ul>
+<li class="method public "><a href="#method_deprecated" title="deprecated() :: This is a deprecated method!"><span class="description">This is a deprecated method!</span><pre>deprecated()</pre></a></li>
+<li class="method public "><a href="#method_foo" title="foo() :: Return the input value $bar."><span class="description">Return the input value $bar.</span><pre>foo()</pre></a></li>
+<li class="method public "><a href="#method_incomplete" title="incomplete() :: This is ai incomplete method!"><span class="description">This is ai incomplete method!</span><pre>incomplete()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header protected">» Protected
+                    <ul>
+<li class="method protected "><a href="#method_bar" title="bar() :: Return the opposite of bar."><span class="description">Return the opposite of bar.</span><pre>bar()</pre></a></li>
+<li class="method protected "><a href="#method_zap" title='zap() :: Give you a "Hello world!".'><span class="description">Give you a "Hello world!".</span><pre>zap()</pre></a></li>
+</ul>
+</li>
+</ul>
 </div>
 <div class="span8">
 <a id="\Example"></a><ul class="breadcrumb">
@@ -69,6 +81,18 @@
 <div class="long_description"></div>
 <h3>
 <i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method_deprecated"></a><div class="element clickable method public method_deprecated" data-toggle="collapse" data-target=".method_deprecated .collapse">
+<h2>This is a deprecated method!</h2>
+<pre>deprecated() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>deprecated</th>
+<td></td>
+</tr></table>
+</div></div>
+</div>
 <a id="method_foo"></a><div class="element clickable method public method_foo" data-toggle="collapse" data-target=".method_foo .collapse">
 <h2>Return the input value $bar.</h2>
 <pre>foo(string $bar) : string</pre>
@@ -84,6 +108,41 @@
 <div class="subelement response"><code>string</code></div>
 </div></div>
 </div>
+<a id="method_incomplete"></a><div class="element clickable method public method_incomplete" data-toggle="collapse" data-target=".method_incomplete .collapse">
+<h2>This is ai incomplete method!</h2>
+<pre>incomplete() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>incomplete</th>
+<td></td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_bar"></a><div class="element clickable method protected method_bar" data-toggle="collapse" data-target=".method_bar .collapse">
+<h2>Return the opposite of bar.</h2>
+<pre>bar() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_zap"></a><div class="element clickable method protected method_zap" data-toggle="collapse" data-target=".method_zap .collapse">
+<h2>Give you a "Hello world!".</h2>
+<pre>zap(string $return) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$return</h4>
+<code>string</code>
+</div>
+</div></div>
+</div>
 </div>
 </div>
 </div>
@@ -92,7 +151,7 @@
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.1.0
 </a> and<br>
-            generated on 2013-11-02T19:38:32+01:00.<br></footer></div>
+            generated on 2013-11-02T19:44:43+01:00.<br></footer></div>
 </div>
 </body>
 </html>

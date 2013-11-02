@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project title="apigenerator/example-source" version="2.1.0&#10;">
   <partials/>
-  <file path="Example.php" generated-path="Example.html" hash="7083227aa4e18a941c05ffc5516ae057" package="apigenerator.org">
+  <file path="Example.php" generated-path="Example.html" hash="c946fef49409127c9187e183612c06a0" package="apigenerator">
     <docblock line="0">
       <description>ApiGenerator.org
 Copyright (C) 2013 Tristan Lins</description>
       <long-description>PHP version 5</long-description>
       <tag name="copyright" line="0" description="bit3 UG 2013"/>
       <tag name="author" line="0" description="Tristan Lins" link="mailto:tristan.lins@bit3.de"/>
-      <tag name="package" line="0" description="apigenerator.org"/>
+      <tag name="package" line="0" description="apigenerator"/>
       <tag name="license" line="0" description="LGPL-3.0+"/>
       <tag name="filesource" line="0" description=""/>
     </docblock>
-    <class final="false" abstract="false" namespace="" line="19" package="apigenerator.org">
+    <class final="false" abstract="false" namespace="" line="19" package="apigenerator">
       <extends/>
       <name>Example</name>
       <full_name>\Example</full_name>
@@ -20,7 +20,7 @@ Copyright (C) 2013 Tristan Lins</description>
         <description>This is an example class.</description>
         <long-description></long-description>
       </docblock>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="28" package="apigenerator.org">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="28" package="apigenerator">
         <name>foo</name>
         <full_name>\Example::foo()</full_name>
         <docblock line="28">
@@ -39,10 +39,58 @@ Copyright (C) 2013 Tristan Lins</description>
           <type>string</type>
         </argument>
       </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="" line="38" package="apigenerator">
+        <name>bar</name>
+        <full_name>\Example::bar()</full_name>
+        <docblock line="38">
+          <description>Return the opposite of bar.</description>
+          <long-description></long-description>
+          <tag name="return" line="38" description="" type="string">
+            <type>string</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="" line="48" package="apigenerator">
+        <name>zap</name>
+        <full_name>\Example::zap()</full_name>
+        <docblock line="48">
+          <description>Give you a "Hello world!".</description>
+          <long-description></long-description>
+          <tag name="param" line="48" description="" type="string" variable="$return">
+            <type>string</type>
+          </tag>
+        </docblock>
+        <argument line="0">
+          <name>$return</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="68" package="apigenerator">
+        <name>deprecated</name>
+        <full_name>\Example::deprecated()</full_name>
+        <docblock line="68">
+          <description>This is a deprecated method!</description>
+          <long-description></long-description>
+          <tag name="deprecated" line="68" description=""/>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="78" package="apigenerator">
+        <name>incomplete</name>
+        <full_name>\Example::incomplete()</full_name>
+        <docblock line="78">
+          <description>This is ai incomplete method!</description>
+          <long-description></long-description>
+          <tag name="incomplete" line="78" description=""/>
+        </docblock>
+      </method>
     </class>
-    <source>eJxdkMtOwzAQRdfxV8wCqW0QTqFiRYGgCoVFFhEqH+CESWLh2pYfFQ/137GdqlRYXnjm3jO+9vpRj5qQIs8J5PCkeYUSDXPKUGWG2Nso/WX4MDqYbxZws7xewdZw65iEmksbLNHVvDSwR2O5knB77JXdCYWWuxW8VYlPGvNuVAbiOh8HazdVVISqjBh9x4eEaNZ9sAEjwjQf/gctBe9Q2qTXVVNfrejyMgk9F2iVNx2Gsji9djtyC2GHq/GT7bRA6ASzliZXOsLzJJAfkkUqC9grOm8kuBGBS+0d7JnwCBctMzQakimENWwHNrxGDkn7k8w0YNJiqyCZ9m2ID72XnYt/2Cs1jxTcw+yb6dmCZCFCdkSjckeyAzmQXz3bgpE=</source>
+    <markers>
+      <todo line="80">I'm incomplete</todo>
+    </markers>
+    <source>eJyFklFv0zAUhZ/jX3E7IdIWkQwqnhgwNFA3qdIqVN54cZ3bxMK1Ldtp2VD/O7aTNB1rIMpD7HOO73dvfPVJV5qQfDolMIXPms9RoqFOmUyZMuzdKP1geFk5GN9M4O3lmxmsDLeOSlhwab0luJa3S9ihsVxJeNfuXbNjFNbczeD7POajRmtXKQPhOT0OrlyzyoRfXYdYVuDHGNGU/aQlhgjVvOxAoyY4Q2mjtpgvF69n2eWrKGy4QKtqw9Av82Onq4pb8K8vi7/oVgsEJqi1WXTFT/jaCOQ3SUIq8bFv6GojwVUIXOrawY6KGuHFmposGKLJgxq6Bes7kWXUesk0BzRa2MpJouu1x4dNLZkL89soNQ4p+ADpI9XphCQeIWmjQXlPkgNJzmIprZXlzn9s4CnV2dJGOWQOi766D42fVkw9UPp3yTnfITyoGihc3KIQCvbKiGJ0MTiH5rThwr7V8cvW1QK0qzCI0xrPYE7+JpcOjaQCtugvWDHqaTplYOqd3DXvKqP2IHHv7wFDHTzj9O5Huj06R+lkEAQK1AYZDR0+I+m1AZbe8H+a3vsvHu6pmQrX2V+NM6PptMHhdIYOKM9hdf/lHu7iQPr4gRzIHx+LQZc=</source>
   </file>
-  <package name="apigenerator.org" full_name="apigenerator.org"/>
+  <package name="apigenerator" full_name="apigenerator"/>
   <namespace name="global" full_name="global"/>
-  <deprecated count="0"/>
+  <deprecated count="1"/>
 </project>
