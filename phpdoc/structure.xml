@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project title="apigenerator/example-source" version="2.1.0&#10;">
   <partials/>
-  <file path="Example.php" generated-path="Example.html" hash="c468c40d447d6b9c797c64d3fa87d798" package="apigenerator">
+  <file path="Example.php" generated-path="Example.html" hash="1763c70cafe1b47eef634a78f28a594f" package="apigenerator">
     <docblock line="0">
       <description>ApiGenerator.org
 Copyright (C) 2013 Tristan Lins</description>
@@ -50,7 +50,7 @@ Copyright (C) 2013 Tristan Lins</description>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="" line="48" package="apigenerator">
+      <method final="false" abstract="false" static="false" visibility="private" namespace="" line="48" package="apigenerator">
         <name>zap</name>
         <full_name>\Example::zap()</full_name>
         <docblock line="48">
@@ -84,20 +84,21 @@ Copyright (C) 2013 Tristan Lins</description>
           <tag name="deprecated" line="68" description=""/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="78" package="apigenerator">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="79" package="apigenerator">
         <name>incomplete</name>
         <full_name>\Example::incomplete()</full_name>
-        <docblock line="78">
+        <docblock line="79">
           <description>This is a incomplete method!</description>
           <long-description></long-description>
-          <tag name="incomplete" line="78" description=""/>
+          <tag name="todo" line="79" description="I'm incomplete"/>
+          <tag name="incomplete" line="79" description=""/>
         </docblock>
       </method>
     </class>
     <markers>
-      <todo line="80">I'm incomplete</todo>
+      <todo line="81">I'm incomplete</todo>
     </markers>
-    <source>eJyFklFv0zAUhZ/jX3E7IdIWkQwqnhgwNFA3qdIqVN54cZ3bxMK1Ldtp2VD/O7aTNB1rIMpD7HOO73dvfPVJV5qQfDolMIXPms9RoqFOmUyZMuzdKP1geFk5GN9M4O3lmxmsDLeOSlhwab0luJa3S9ihsVxJeNfuXbNjFNbczeD7POajRmtXKQPhOT0OrlyzyoRfXYdYVuDHGNGU/aQlhgjVvOxAoyY4Q2mjtpgvF69n2eWrKGy4QKtqw9Av82Onq4pb8K8vi7/oVgsEJqi1WXTFT/jaCOQ3SUIq8bFv6GojwVUIXOrawY6KGuHFmposGKLJgxq6Bes7kWXUesk0BzRa2MpJouu1x4dNLZkL89soNQ4p+ADpI9XphCQeIWmjQXlPkgNJzmIprZXlzn9s4CnV2dJGOWQOi766D42fVkw9UPp3yTnfITyoGihc3KIQCvbKiGJ0MTiH5rThwr7V8cvW1QK0qzCI0xrPYE7+JpcOjaQCtugvWDHqaTplYOqd3DXvKqP2IHHv7wFDHTzj9O5Huj06R+lkEAQK1AYZDR0+I+m1AZbe8H+a3vtPHi6ZCrfZ34wzk+m0wdl0ho4nz2F1/+Ue7uI8+viBHMgf0gZBLg==</source>
+    <source>eJyFUl1v0zAUfY5/xe2ESFpEMlbxxIChgbpJlVah8saL69wmFqlt2U7LhvrfsZ2vbm0hykOuzzn3nHvj68+qVIRkkwmBCXxRfIYCNbVSp1IX/uxWqkfNi9JCcjuGq8t3U1hqbiwVMOfCOIpnLe4WsEVtuBTwvj27Yb0UVtxO4ccs6ANGa1tKDf45bAfXtqnSylU3Xpbm+ClIFGW/aIFeQhUvuqABqzhDYQI2ny3mb6fp5ZsArHmFRtaaoSuzftJlyQ2419nib7pRFQKrqDFpYIVP+NYA5A+JvCpysu9oay3AlghcqNrCllY1wqsV1aknBJILqukGjJtEFAEbIN00aDB/lJFI1SsXH9a1YNbvby1l4lXwEeInquIxiVyEqJV65AOJ9iQ6GUsqJQ237mMNz1OdtNbSIrOYD+5OlDx3jF2g+KXljG8RHmUNFC7usKok7KSu8tHF2T003XpjvqUuZW/rBk1et5zWvq38Gg4djqIc/EsuLGpBK9igu175aMjSIWd23sHd6LbUcgcCd+4WMFSek8T3P+NNzxzF47NBIEelkVG/2KMkA3Ymy0D4f5qB+888XDDp77Lb+FEeK3MJ92GyjtSt7LA+ubSO0AXNMlg+fH04arcne/IXpwtIHw==</source>
   </file>
   <package name="apigenerator" full_name="apigenerator"/>
   <namespace name="global" full_name="global"/>
