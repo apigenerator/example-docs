@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project title="apigenerator/example-source" version="2.1.0&#10;">
   <partials/>
-  <file path="Example.php" generated-path="Example.html" hash="c946fef49409127c9187e183612c06a0" package="apigenerator">
+  <file path="Example.php" generated-path="Example.html" hash="c468c40d447d6b9c797c64d3fa87d798" package="apigenerator">
     <docblock line="0">
       <description>ApiGenerator.org
 Copyright (C) 2013 Tristan Lins</description>
@@ -66,6 +66,15 @@ Copyright (C) 2013 Tristan Lins</description>
           <type>string</type>
         </argument>
       </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="58" package="apigenerator">
+        <name>internal</name>
+        <full_name>\Example::internal()</full_name>
+        <docblock line="58">
+          <description>This is an internal method!</description>
+          <long-description></long-description>
+          <tag name="internal" line="58" description=""/>
+        </docblock>
+      </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="" line="68" package="apigenerator">
         <name>deprecated</name>
         <full_name>\Example::deprecated()</full_name>
@@ -79,7 +88,7 @@ Copyright (C) 2013 Tristan Lins</description>
         <name>incomplete</name>
         <full_name>\Example::incomplete()</full_name>
         <docblock line="78">
-          <description>This is ai incomplete method!</description>
+          <description>This is a incomplete method!</description>
           <long-description></long-description>
           <tag name="incomplete" line="78" description=""/>
         </docblock>
@@ -88,7 +97,7 @@ Copyright (C) 2013 Tristan Lins</description>
     <markers>
       <todo line="80">I'm incomplete</todo>
     </markers>
-    <source>eJyFklFv0zAUhZ/jX3E7IdIWkQwqnhgwNFA3qdIqVN54cZ3bxMK1Ldtp2VD/O7aTNB1rIMpD7HOO73dvfPVJV5qQfDolMIXPms9RoqFOmUyZMuzdKP1geFk5GN9M4O3lmxmsDLeOSlhwab0luJa3S9ihsVxJeNfuXbNjFNbczeD7POajRmtXKQPhOT0OrlyzyoRfXYdYVuDHGNGU/aQlhgjVvOxAoyY4Q2mjtpgvF69n2eWrKGy4QKtqw9Av82Onq4pb8K8vi7/oVgsEJqi1WXTFT/jaCOQ3SUIq8bFv6GojwVUIXOrawY6KGuHFmposGKLJgxq6Bes7kWXUesk0BzRa2MpJouu1x4dNLZkL89soNQ4p+ADpI9XphCQeIWmjQXlPkgNJzmIprZXlzn9s4CnV2dJGOWQOi766D42fVkw9UPp3yTnfITyoGihc3KIQCvbKiGJ0MTiH5rThwr7V8cvW1QK0qzCI0xrPYE7+JpcOjaQCtugvWDHqaTplYOqd3DXvKqP2IHHv7wFDHTzj9O5Huj06R+lkEAQK1AYZDR0+I+m1AZbe8H+a3vsvHu6pmQrX2V+NM6PptMHhdIYOKM9hdf/lHu7iQPr4gRzIHx+LQZc=</source>
+    <source>eJyFklFv0zAUhZ/jX3E7IdIWkQwqnhgwNFA3qdIqVN54cZ3bxMK1Ldtp2VD/O7aTNB1rIMpD7HOO73dvfPVJV5qQfDolMIXPms9RoqFOmUyZMuzdKP1geFk5GN9M4O3lmxmsDLeOSlhwab0luJa3S9ihsVxJeNfuXbNjFNbczeD7POajRmtXKQPhOT0OrlyzyoRfXYdYVuDHGNGU/aQlhgjVvOxAoyY4Q2mjtpgvF69n2eWrKGy4QKtqw9Av82Onq4pb8K8vi7/oVgsEJqi1WXTFT/jaCOQ3SUIq8bFv6GojwVUIXOrawY6KGuHFmposGKLJgxq6Bes7kWXUesk0BzRa2MpJouu1x4dNLZkL89soNQ4p+ADpI9XphCQeIWmjQXlPkgNJzmIprZXlzn9s4CnV2dJGOWQOi766D42fVkw9UPp3yTnfITyoGihc3KIQCvbKiGJ0MTiH5rThwr7V8cvW1QK0qzCI0xrPYE7+JpcOjaQCtugvWDHqaTplYOqd3DXvKqP2IHHv7wFDHTzj9O5Huj06R+lkEAQK1AYZDR0+I+m1AZbe8H+a3vtPHi6ZCrfZ34wzk+m0wdl0ho4nz2F1/+Ue7uI8+viBHMgf0gZBLg==</source>
   </file>
   <package name="apigenerator" full_name="apigenerator"/>
   <namespace name="global" full_name="global"/>
